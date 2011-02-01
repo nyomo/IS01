@@ -1,0 +1,11 @@
+このファイルはIS01にhttp://www44.atwiki.jp/is01rebuild/の
+各成果物をインストールする為の手順を書いたMakefileです
+必要な環境などは
+http://www.go5.jp/~nyomo/IS01upgrade.html
+を参照のこと
+適宜ファイルを書き換えた後に
+一番始めにmake dependすると良いでしょう
+
+-kオプション利用推奨
+
+無保証です

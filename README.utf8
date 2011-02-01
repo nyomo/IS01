@@ -3,9 +3,26 @@
 必要な環境などは
 http://www.go5.jp/~nyomo/IS01upgrade.html
 を参照のこと
+無保証です
+-kオプション利用推奨
 適宜ファイルを書き換えた後に
 一番始めにmake dependすると良いでしょう
+make installで以下のターゲットを実行します
+preinstall
+	dataとsystem2のマウント
+copy_gb_system 
+	元の1.6環境からsymlink環境へのコピー
+push_gb 
+	RO215氏のバイナリをIS01に転送
+push_gb_bootimage_msg
+	起動イメージの書き換え方法の説明を出力
 
--kオプション利用推奨
 
-無保証です
+メモ
+SYSTEM_DOUNUT="app asg bin etc fonts framework lib media pubkey sb uerdata usr b
+uild.prop ts.conf"
+DATA_DOUNUT="anr app app-private asg cache dalvik-cache data fonts fota gps-test
+ kernel-tests local media misc property remote-api-tets ro rpc-tests sb synergy
+system local.prop"
+
+

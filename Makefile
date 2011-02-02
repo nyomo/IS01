@@ -7,6 +7,7 @@ SYSTEM_16GB="asg bin etc fonts lib media pubkey sb userdata usr build.prop ts.co
 all:;@echo "read README.utf8 and  make -k target "
 
 install:preinstall copy_gb_system push_gb push_gb_bootimage_msg
+target:;@echo "please read README.utf8!!!!!!!"
 
 custom_gb:
 	$(ADB) shell busybox chmod 777 /data/$(SYSTEM_GB)/system/bin/busybox

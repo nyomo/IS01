@@ -1,4 +1,16 @@
-h1.IS01にいろいろする為のファイル
+h1. IS01にいろいろする為のファイル
+どのファイルも無保証です。
+場合によってはIS01が壊れるかもしれません。
+
 IS01に "is01rebuild@wiki" http://www44.atwiki.jp/is01rebuild/ を簡単に適用する為のスクリプトファイル類です
 簡単にとは言ってもUnixコマンドを知っている必要があります
 recovery_kit Version1.30が導入されている事を前提に作られています 
+
+h2. Makefile
+gingerbreadのインストールをする為のファイル
+GNU Make 3.81で動作確認しました
+README.utf8必読
+
+h2. image2dir.sh
+起動イメージを分解してディレクトリにする手順をまとめたスクリプト
+unubinize.plとsplit_boootimg.pl必須

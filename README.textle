@@ -1,0 +1,4 @@
+h1.IS01にいろいろする為のファイル
+IS01に "is01rebuild@wiki" http://www44.atwiki.jp/is01rebuild/ を簡単に適用する為のスクリプトファイル類です
+簡単にとは言ってもUnixコマンドを知っている必要があります
+recovery_kit Version1.30が導入されている事を前提に作られています 

@@ -7,10 +7,18 @@ IS01に "is01rebuild@wiki" http://www44.atwiki.jp/is01rebuild/ を簡単に適�
 recovery_kit Version1.30が導入されている事を前提に作られています 
 
 h2. Makefile
+
 gingerbreadのインストールをする為のファイル
 GNU Make 3.81で動作確認しました
 README.utf8必読
 
-h2. image2dir.sh
+h2. img2dir.sh
+
 起動イメージを分解してディレクトリにする手順をまとめたスクリプト
 unubinize.plとsplit_boootimg.pl必須
+
+h2. dir2img.sh
+
+img2dir.sh で出来たディレクトリ以下のファイルをいじってから実行すると
+カスタム起動イメージが出来るはず
+できあがったイメージは標準では./img以下にmy_云々というファイル名で保存されます
